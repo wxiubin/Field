@@ -1,3 +1,5 @@
+> 本片文章首发博客地址：[https://sanyucz.top/tags/runtime/](https://sanyucz.top/tags/runtime/)
+
 ### 方法调用 objc_msgSend
 调用方法（函数）是语言经常使用的功能，在 Objective-C 中专业一点的叫法是 **传递消息(pass a message)**。Objective-C 的方法调用都是 **动态绑定** ，而C语言中函数调用方式是 **静态绑定**  ( **static binding** )，也就是说，在编译时期就能决定和知道在运行时所调用的函数。
 

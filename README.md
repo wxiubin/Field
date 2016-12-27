@@ -2,14 +2,11 @@
 
 对一些主要是但不限于 iOS开发 的各方面常用资源记录，持续更新~
 
-## 自己做的笔记
+## 笔记
 
-### 多线程
-[iOS开发中多线程的那些事.md](https://github.com/sanyucz/iOSNote/blob/master/%E5%A4%9A%E7%BA%BF%E7%A8%8B/iOS%E5%BC%80%E5%8F%91%E4%B8%AD%E5%A4%9A%E7%BA%BF%E7%A8%8B%E7%9A%84%E9%82%A3%E4%BA%9B%E4%BA%8B.md)
+* [iOS开发中多线程的那些事.md](https://github.com/sanyucz/iOSNote/blob/master/%E5%A4%9A%E7%BA%BF%E7%A8%8B/iOS%E5%BC%80%E5%8F%91%E4%B8%AD%E5%A4%9A%E7%BA%BF%E7%A8%8B%E7%9A%84%E9%82%A3%E4%BA%9B%E4%BA%8B.md)
+* [runtime 入门与简介.MD](https://github.com/sanyucz/iOSNote/commit/1a814b9fb79d2c9d57b5e717e371714b3dbf171f)
 
-### runtime
-
-[runtime 入门与简介.MD](https://github.com/sanyucz/iOSNote/commit/1a814b9fb79d2c9d57b5e717e371714b3dbf171f)
 
 ## 多线程/RunLoop 相关
 

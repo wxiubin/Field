@@ -4,8 +4,8 @@
 
 ## 笔记
 
-* [iOS开发中多线程的那些事.md](https://github.com/sanyucz/iOSNote/blob/master/%E5%A4%9A%E7%BA%BF%E7%A8%8B/iOS%E5%BC%80%E5%8F%91%E4%B8%AD%E5%A4%9A%E7%BA%BF%E7%A8%8B%E7%9A%84%E9%82%A3%E4%BA%9B%E4%BA%8B.md)
-* [runtime 入门与简介.md](https://github.com/sanyucz/iOSNote/blob/master/runtime/runtime%20%E5%85%A5%E9%97%A8%E4%B8%8E%E7%AE%80%E4%BB%8B.md)
+* [iOS开发中多线程的那些事.md](https://gist.github.com/sanyucz/27a156f4bbb6e9ad050241ed88026f49)
+* [runtime 入门与简介.md](https://gist.github.com/sanyucz/3267d06cd322c5e01d2ef54adee0f5e2)
 
 ## 其他资源
 

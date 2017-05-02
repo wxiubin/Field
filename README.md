@@ -1,9 +1,9 @@
 ## 我的博客
 
-地址：[http://sanyucz.top](http://sanyucz.top)
-或者：[https://sanyucz.github.io/blog](https://sanyucz.github.io/blog)
+地址：[http://sanyucz.top](http://sanyucz.top)，
+或者 [https://sanyucz.github.io/blog](https://sanyucz.github.io/blog)
 
-博客文章和评论自动从 [https://github.com/sanyucz/blog/issues](https://github.com/sanyucz/blog/issues) 加载。
+博客的文章和评论自动从 [https://github.com/sanyucz/blog/issues](https://github.com/sanyucz/blog/issues) 加载。
 
 ## iOS 开发中的一些资源
 

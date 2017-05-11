@@ -1,81 +1,172 @@
-## 我的博客
+# Mirror
 
-地址：[http://sanyucz.top](http://sanyucz.top)，
-或者 [https://sanyucz.github.io/blog](https://sanyucz.github.io/blog)
+[中文说明](http://mirror.am0200.com/#11)
 
-博客的文章和评论自动从 [https://github.com/sanyucz/blog/issues](https://github.com/sanyucz/blog/issues) 加载。
+A blog tool powered by GitHub, write your blog on GitHub issue 
 
-## iOS 开发中的一些资源
+http://mirror.am0200.com/
 
-对一些主要是但不限于 iOS开发 的各方面常用资源记录，持续更新~
+## How to use
 
-### 笔记
+### install
 
-* [iOS开发中多线程的那些事.md](https://gist.github.com/sanyucz/27a156f4bbb6e9ad050241ed88026f49)
-* [runtime 入门与简介.md](https://gist.github.com/sanyucz/3267d06cd322c5e01d2ef54adee0f5e2)
+```bash
+$ sudo npm install Mirror -g
+```
 
-### 其他资源
+### create
 
-#### 多线程/RunLoop 相关
+```bash
+$ cd newblog
+$ mirror init 
+```
 
-- [深入理解 iOS 开发中的锁](https://bestswifter.com/ios-lock/?utm_source=tuicool&utm_medium=referral)
-- [iOS中保证线程安全的几种方式与性能对比](http://www.jianshu.com/p/ddbe44064ca4)
-- [深入理解RunLoop](http://blog.ibireme.com/2015/05/18/runloop/)
+or 
 
-#### runtime
+```bash
+$ mirror init newblog
+```
 
-- [官方文档](https://developer.apple.com/reference/objectivec/1657527-objective_c_runtime?language=objc)
-- [Associated Objects](http://nshipster.com/associated-objects/) - 来自：[NSHipster](http://nshipster.com/)
-- [神经病院 Objective-C Runtime 入院第一天— isa 和 Class](http://ios.jobbole.com/89209/#comment-90580)
-- [神经病院 Objective-C Runtime 住院第二天—消息发送与转发](http://ios.jobbole.com/89386/)
-- [神经病院Objective-C Runtime出院第三天——如何正确使用Runtime](http://ios.jobbole.com/89452/)
+### configure
 
-#### 动画
+modify `config.yml`
 
-- [iOS核心动画高级技巧](https://github.com/AlfredTheBest/iOS_core_animation?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)
+```yml
+# site title
+title: Mirror
 
-#### 第三方库/框架
+# github user: your github username
+user: LoeiFy
 
-- [iOS快速开发必备](https://zhuanlan.zhihu.com/p/22763239?refer=lishichao)
+# issue repo: your issues repo, all blog content from here 
+repo: Recordum
 
-#### 网络
+# multi-authors, `user` is included by default
+# example: author0,author1
+authors:
 
-- [99%的人都理解错了HTTP中GET与POST的区别](https://zhuanlan.zhihu.com/p/22536382?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)
+# per page
+per_page: 10
 
-#### Git
-- [Git官方文档](https://git-scm.com/book/en/v2)
-- [Git的核心概念](https://lufficc.com/blog/the-core-conception-of-git)
-- [廖雪峰的官方网站-Git教程](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
-- [Git的基础知识和使用](http://sanyucz.top/2016/03/25/Git-0/)
+# sandbox
+# quick preview other blog
+sandbox: false
+```
 
+Add your access token in `token.txt`, this token is read-only
 
-#### 博客
+https://github.com/settings/tokens
 
-- [Garan no dou | 一只魔法师的工坊](http://blog.ibireme.com/) -博主：[ibireme](https://github.com/ibireme/)
-- [中文iOS/Mac 开发博客列表](https://github.com/tangqiaoboy/iOSBlogCN) - [唐巧](https://github.com/tangqiaoboy)收集
+**DO NOT** check any permissions
 
+grants read-only access to public information (includes public user profile info, public repository info, and gists)
 
-#### VR 相关
+### build
 
-- [VR 开发资源汇总](https://github.com/GeekLiB/Lee-VR-Source)   (总结了：精选视频，网站教程，精选博客，各平台搭建，VR报告单，VR知识论文)
+```bash
+$ mirror build
+```
 
-#### 开源 APP
+### pulish your blog
 
-- [開源解析 iOS App - 豆瓣音乐](https://kobe0308.github.io/2016/08/29/20160829/?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)
-- [开源解析iOS App - DownTube](https://kobe0308.github.io/2016/08/13/20160813-01/)
+you can add domain in `CNAME`
 
+push all files to a repo `gh-pages` branch
 
-#### 工具
+> example 
 
-- [Mac效率之王--Alfred](https://www.alfredapp.com/)
-- [Mac清理工具--CleanMyMac](http://macpaw.com/cleanmymac)
-- [UI调试神器--Reveal](https://revealapp.com/)
-- [接口调试--Postman](https://www.getpostman.com/)
-- [网络拦截--Charles](https://www.charlesproxy.com/)
-- [Git代码界面管理工具--SourceTree](https://www.sourcetreeapp.com/)
-- [原型设计工具--Axure RP Pro](http://www.axure.com/download)
-- [UI与代码转换工具--PaintCode](https://www.paintcodeapp.com/)
-- [Gif生成工具--licecap](https://github.com/justinfrankel/licecap)
-- [Logo设计工具--Logoist](http://www.syniumsoftware.com/logoist)
-- [扁平化UI设计工具--Sketch](https://www.sketchapp.com/)
+https://github.com/LoeiFy/Mirror/tree/gh-pages
+
+### finally
+
+everything done, now you can write your blog on GitHub issue :) 
+
+> example
+
+write the blog on this issues 
+
+https://github.com/LoeiFy/Recordum/issues
+
+and the blog will update automatically
+
+http://mirror.am0200.com/ 
+
+### upgrade
+
+> upgrade mirror
+
+```bash
+$ sudo npm install Mirror -g
+```
+
+> remove your config file
+
+```bash
+$ cd yourblog
+$ rm config.yml
+```
+
+> reinitialize blog
+
+```bash
+$ mirror init
+```
+
+> configure `config.yml`
+
+> rebuild
+
+```bash
+$ mirror build
+```
+
+## Not installed Node.js ?
+
+ok, you can download the latest release and configure quickly 
+
+https://github.com/LoeiFy/Mirror/raw/master/mirror.zip
+
+```html
+<!-- index.html -->
+
+<script>
+
+// blog config here
+// token should be separated by '#'. example: 5#c31bffc137f44faf7efc4a84da827g7ca2cfeaa
+// example:
+// window.config = {"title":"rorriM","user":"acyortjs","repo":"acyortjs.github.io","token":"5#c31bffc137f44faf7efc4a84da827g7ca2cfeaa","authors":"LoeiFy,User0","per_page":1,"sandbox":false}
+window.config = {"title":"","user":"","repo":"","token":"","authors":"","per_page":"", "sandbox":false}
+
+</script>
+```
+
+## Development
+
+fork and install modules
+
+```bash
+$ npm install
+```
+
+local test
+
+```bash
+$ npm run dev
+```
+
+build
+
+```bash
+$ npm run build
+```
+
+## License
+
+MIT
+
+## Related
+
+![mirror](https://cloud.githubusercontent.com/assets/2193211/12321915/c66d8b12-baeb-11e5-9612-b188f5272e3b.jpg)
+
+`Mirror` by `DJ Okawari`
 

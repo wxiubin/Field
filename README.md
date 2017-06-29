@@ -1,81 +1,23 @@
-## 我的博客
 
-地址：[http://sanyucz.top](http://sanyucz.top)，
-或者 [https://sanyucz.github.io/blog](https://sanyucz.github.io/blog)
+### Post
 
-博客的文章和评论自动从 [https://github.com/sanyucz/blog/issues](https://github.com/sanyucz/blog/issues) 加载。
+#### Swift
 
-## iOS 开发中的一些资源
+[Swift 语法初窥](https://iosgg.cn/2016/10/06/swift_basic_grammar/)
+[Swift 的函数和闭包](https://iosgg.cn/2016/10/07/swift_functions_closures/)
+[Swift 的类和对象](https://iosgg.cn/2016/10/07/swift_class_object/)
+[Swift 中的类和结构体](https://iosgg.cn/2016/10/12/swift_class_struct/)
 
-对一些主要是但不限于 iOS开发 的各方面常用资源记录，持续更新~
 
-### 笔记
+#### 多线程
 
-* [iOS开发中多线程的那些事.md](https://gist.github.com/sanyucz/27a156f4bbb6e9ad050241ed88026f49)
-* [runtime 入门与简介.md](https://gist.github.com/sanyucz/3267d06cd322c5e01d2ef54adee0f5e2)
-
-### 其他资源
-
-#### 多线程/RunLoop 相关
-
-- [深入理解 iOS 开发中的锁](https://bestswifter.com/ios-lock/?utm_source=tuicool&utm_medium=referral)
-- [iOS中保证线程安全的几种方式与性能对比](http://www.jianshu.com/p/ddbe44064ca4)
-- [深入理解RunLoop](http://blog.ibireme.com/2015/05/18/runloop/)
+[iOS开发中多线程的那些事](https://iosgg.cn/2016/05/22/multithreading_iOS/)
 
 #### runtime
 
-- [官方文档](https://developer.apple.com/reference/objectivec/1657527-objective_c_runtime?language=objc)
-- [Associated Objects](http://nshipster.com/associated-objects/) - 来自：[NSHipster](http://nshipster.com/)
-- [神经病院 Objective-C Runtime 入院第一天— isa 和 Class](http://ios.jobbole.com/89209/#comment-90580)
-- [神经病院 Objective-C Runtime 住院第二天—消息发送与转发](http://ios.jobbole.com/89386/)
-- [神经病院Objective-C Runtime出院第三天——如何正确使用Runtime](http://ios.jobbole.com/89452/)
+[runtime(一) objc_msgSend](https://iosgg.cn/2016/04/11/runtime1_objc_msgSend/)
+[runtime(二) 给对象、分类添加实例变量](https://iosgg.cn/2016/04/13/runtime2_association/)
+[runtime(三) Objective-C 的消息转发机制与动态添加方法](https://iosgg.cn/2016/04/17/runtime3_message_forwarding/)
+[runtime(四) method swizzling 与AOP编程](https://iosgg.cn/2016/04/17/runtime4_method_swizzling/)
 
-#### 动画
-
-- [iOS核心动画高级技巧](https://github.com/AlfredTheBest/iOS_core_animation?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)
-
-#### 第三方库/框架
-
-- [iOS快速开发必备](https://zhuanlan.zhihu.com/p/22763239?refer=lishichao)
-
-#### 网络
-
-- [99%的人都理解错了HTTP中GET与POST的区别](https://zhuanlan.zhihu.com/p/22536382?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)
-
-#### Git
-- [Git官方文档](https://git-scm.com/book/en/v2)
-- [Git的核心概念](https://lufficc.com/blog/the-core-conception-of-git)
-- [廖雪峰的官方网站-Git教程](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
-- [Git的基础知识和使用](http://sanyucz.top/2016/03/25/Git-0/)
-
-
-#### 博客
-
-- [Garan no dou | 一只魔法师的工坊](http://blog.ibireme.com/) -博主：[ibireme](https://github.com/ibireme/)
-- [中文iOS/Mac 开发博客列表](https://github.com/tangqiaoboy/iOSBlogCN) - [唐巧](https://github.com/tangqiaoboy)收集
-
-
-#### VR 相关
-
-- [VR 开发资源汇总](https://github.com/GeekLiB/Lee-VR-Source)   (总结了：精选视频，网站教程，精选博客，各平台搭建，VR报告单，VR知识论文)
-
-#### 开源 APP
-
-- [開源解析 iOS App - 豆瓣音乐](https://kobe0308.github.io/2016/08/29/20160829/?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)
-- [开源解析iOS App - DownTube](https://kobe0308.github.io/2016/08/13/20160813-01/)
-
-
-#### 工具
-
-- [Mac效率之王--Alfred](https://www.alfredapp.com/)
-- [Mac清理工具--CleanMyMac](http://macpaw.com/cleanmymac)
-- [UI调试神器--Reveal](https://revealapp.com/)
-- [接口调试--Postman](https://www.getpostman.com/)
-- [网络拦截--Charles](https://www.charlesproxy.com/)
-- [Git代码界面管理工具--SourceTree](https://www.sourcetreeapp.com/)
-- [原型设计工具--Axure RP Pro](http://www.axure.com/download)
-- [UI与代码转换工具--PaintCode](https://www.paintcodeapp.com/)
-- [Gif生成工具--licecap](https://github.com/justinfrankel/licecap)
-- [Logo设计工具--Logoist](http://www.syniumsoftware.com/logoist)
-- [扁平化UI设计工具--Sketch](https://www.sketchapp.com/)
 

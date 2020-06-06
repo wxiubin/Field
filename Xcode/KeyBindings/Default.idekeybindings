@@ -8,63 +8,83 @@
 		<array>
 			<dict>
 				<key>Action</key>
-				<string>goForwardInHistoryByCommand:</string>
+				<string>_invokeSourceEditorExtensionCommand:</string>
 				<key>Alternate</key>
 				<string>NO</string>
 				<key>CommandID</key>
-				<string>Xcode.IDEKit.CmdDefinition.GoForward</string>
+				<string>IDESourceEditorExtension:me.jarvis.BBXEApp.BBXE,IDESourceEditorExtensionCommand:me.jarvis.BBXEApp.BBXE.SortCommand</string>
 				<key>Group</key>
-				<string>Navigate Menu</string>
+				<string>Editor Menu for Source Code</string>
 				<key>GroupID</key>
-				<string>Xcode.IDEKit.MenuDefinition.Main</string>
+				<string>Xcode.IDESourceEditor.MenuDefinition.Editor</string>
 				<key>GroupedAlternate</key>
 				<string>NO</string>
-				<key>Keyboard Shortcut</key>
-				<string></string>
 				<key>Navigation</key>
-				<string>YES</string>
+				<string>NO</string>
+				<key>Parent Title</key>
+				<string>BBXE</string>
 				<key>Title</key>
-				<string>Go Forward</string>
+				<string>Sort Lines</string>
 			</dict>
 			<dict>
 				<key>Action</key>
-				<string>goForwardInHistoryByCommandWithAlternate:</string>
+				<string>_invokeSourceEditorExtensionCommand:</string>
 				<key>Alternate</key>
-				<string>YES</string>
+				<string>NO</string>
 				<key>CommandID</key>
-				<string>Xcode.IDEKit.CmdDefinition.GoForwardWithAlternate</string>
+				<string>IDESourceEditorExtension:me.jarvis.BBXEApp.BBXE,IDESourceEditorExtensionCommand:me.jarvis.BBXEApp.BBXE.TidyHeaderCommand</string>
 				<key>Group</key>
-				<string>Navigate Menu</string>
+				<string>Editor Menu for Source Code</string>
 				<key>GroupID</key>
-				<string>Xcode.IDEKit.MenuDefinition.Main</string>
+				<string>Xcode.IDESourceEditor.MenuDefinition.Editor</string>
 				<key>GroupedAlternate</key>
 				<string>NO</string>
-				<key>Keyboard Shortcut</key>
-				<string>~</string>
 				<key>Navigation</key>
-				<string>YES</string>
+				<string>NO</string>
+				<key>Parent Title</key>
+				<string>BBXE</string>
 				<key>Title</key>
-				<string>Go Forward (option)</string>
+				<string>Tidy Headers </string>
 			</dict>
 			<dict>
 				<key>Action</key>
-				<string>goForwardInHistoryByCommandWithShiftPlusAlternate:</string>
+				<string>_invokeSourceEditorExtensionCommand:</string>
 				<key>Alternate</key>
-				<string>YES</string>
+				<string>NO</string>
 				<key>CommandID</key>
-				<string>Xcode.IDEKit.CmdDefinition.GoForwardWithShiftPlusAlternate</string>
+				<string>IDESourceEditorExtension:me.jarvis.BBXEApp.BBXE,IDESourceEditorExtensionCommand:me.jarvis.BBXEApp.BBXE.UniqueCommand</string>
 				<key>Group</key>
-				<string>Navigate Menu</string>
+				<string>Editor Menu for Source Code</string>
 				<key>GroupID</key>
-				<string>Xcode.IDEKit.MenuDefinition.Main</string>
+				<string>Xcode.IDESourceEditor.MenuDefinition.Editor</string>
+				<key>GroupedAlternate</key>
+				<string>NO</string>
+				<key>Navigation</key>
+				<string>NO</string>
+				<key>Parent Title</key>
+				<string>BBXE</string>
+				<key>Title</key>
+				<string>Unique Lines</string>
+			</dict>
+			<dict>
+				<key>Action</key>
+				<string>documentation_showSwiftReferenceNavigator:</string>
+				<key>Alternate</key>
+				<string>NO</string>
+				<key>CommandID</key>
+				<string>Xcode.IDEDocViewer.CmdDefinition.ShowSwiftReferenceNavigator</string>
+				<key>Group</key>
+				<string>Editor Menu for Documentation</string>
+				<key>GroupID</key>
+				<string>Xcode.IDEKit.MenuDefinition.DocViewingEditorMenu</string>
 				<key>GroupedAlternate</key>
 				<string>NO</string>
 				<key>Keyboard Shortcut</key>
-				<string>~$</string>
+				<string>~@/</string>
 				<key>Navigation</key>
-				<string>YES</string>
+				<string>NO</string>
 				<key>Title</key>
-				<string>Go Forward (shift+option)</string>
+				<string>Show Swift Reference Documentation</string>
 			</dict>
 			<dict>
 				<key>Action</key>
@@ -128,6 +148,66 @@
 			</dict>
 			<dict>
 				<key>Action</key>
+				<string>goForwardInHistoryByCommand:</string>
+				<key>Alternate</key>
+				<string>NO</string>
+				<key>CommandID</key>
+				<string>Xcode.IDEKit.CmdDefinition.GoForward</string>
+				<key>Group</key>
+				<string>Navigate Menu</string>
+				<key>GroupID</key>
+				<string>Xcode.IDEKit.MenuDefinition.Main</string>
+				<key>GroupedAlternate</key>
+				<string>NO</string>
+				<key>Keyboard Shortcut</key>
+				<string></string>
+				<key>Navigation</key>
+				<string>YES</string>
+				<key>Title</key>
+				<string>Go Forward</string>
+			</dict>
+			<dict>
+				<key>Action</key>
+				<string>goForwardInHistoryByCommandWithAlternate:</string>
+				<key>Alternate</key>
+				<string>YES</string>
+				<key>CommandID</key>
+				<string>Xcode.IDEKit.CmdDefinition.GoForwardWithAlternate</string>
+				<key>Group</key>
+				<string>Navigate Menu</string>
+				<key>GroupID</key>
+				<string>Xcode.IDEKit.MenuDefinition.Main</string>
+				<key>GroupedAlternate</key>
+				<string>NO</string>
+				<key>Keyboard Shortcut</key>
+				<string>~</string>
+				<key>Navigation</key>
+				<string>YES</string>
+				<key>Title</key>
+				<string>Go Forward (option)</string>
+			</dict>
+			<dict>
+				<key>Action</key>
+				<string>goForwardInHistoryByCommandWithShiftPlusAlternate:</string>
+				<key>Alternate</key>
+				<string>YES</string>
+				<key>CommandID</key>
+				<string>Xcode.IDEKit.CmdDefinition.GoForwardWithShiftPlusAlternate</string>
+				<key>Group</key>
+				<string>Navigate Menu</string>
+				<key>GroupID</key>
+				<string>Xcode.IDEKit.MenuDefinition.Main</string>
+				<key>GroupedAlternate</key>
+				<string>NO</string>
+				<key>Keyboard Shortcut</key>
+				<string>~$</string>
+				<key>Navigation</key>
+				<string>YES</string>
+				<key>Title</key>
+				<string>Go Forward (shift+option)</string>
+			</dict>
+			<dict>
+				<key>Action</key>
 				<string>jumpToNextCounterpart:</string>
 				<key>Alternate</key>
 				<string>NO</string>
@@ -150,6 +230,28 @@
 			</dict>
 			<dict>
 				<key>Action</key>
+				<string>jumpToNextCounterpart:</string>
+				<key>Alternate</key>
+				<string>NO</string>
+				<key>CommandGroupID</key>
+				<string>Xcode.IDESourceEditor.CmdDefinition.JumpToNextCounterpart</string>
+				<key>CommandID</key>
+				<string>Xcode.IDESourceEditor.CmdDefinition.JumpToNextCounterpart</string>
+				<key>Group</key>
+				<string>Navigate Menu for Source Code Comparison</string>
+				<key>GroupID</key>
+				<string>Xcode.IDESourceEditor.MenuDefinition.Navigate</string>
+				<key>GroupedAlternate</key>
+				<string>NO</string>
+				<key>Keyboard Shortcut</key>
+				<string></string>
+				<key>Navigation</key>
+				<string>YES</string>
+				<key>Title</key>
+				<string>Jump to Next Counterpart</string>
+			</dict>
+			<dict>
+				<key>Action</key>
 				<string>jumpToNextCounterpartWithAlternate:</string>
 				<key>Alternate</key>
 				<string>YES</string>
@@ -159,6 +261,28 @@
 				<string>Xcode.IDESourceEditor.CmdDefinition.JumpToNextCounterpartWithAlternate</string>
 				<key>Group</key>
 				<string>Navigate Menu for Source Code</string>
+				<key>GroupID</key>
+				<string>Xcode.IDESourceEditor.MenuDefinition.Navigate</string>
+				<key>GroupedAlternate</key>
+				<string>NO</string>
+				<key>Keyboard Shortcut</key>
+				<string>~</string>
+				<key>Navigation</key>
+				<string>YES</string>
+				<key>Title</key>
+				<string>Jump to Next Counterpart (option)</string>
+			</dict>
+			<dict>
+				<key>Action</key>
+				<string>jumpToNextCounterpartWithAlternate:</string>
+				<key>Alternate</key>
+				<string>YES</string>
+				<key>CommandGroupID</key>
+				<string>Xcode.IDESourceEditor.CmdDefinition.JumpToNextCounterpartWithAlternate</string>
+				<key>CommandID</key>
+				<string>Xcode.IDESourceEditor.CmdDefinition.JumpToNextCounterpartWithAlternate</string>
+				<key>Group</key>
+				<string>Navigate Menu for Source Code Comparison</string>
 				<key>GroupID</key>
 				<string>Xcode.IDESourceEditor.MenuDefinition.Navigate</string>
 				<key>GroupedAlternate</key>
@@ -191,50 +315,6 @@
 				<string>YES</string>
 				<key>Title</key>
 				<string>Jump to Next Counterpart (shift+option)</string>
-			</dict>
-			<dict>
-				<key>Action</key>
-				<string>jumpToNextCounterpart:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandGroupID</key>
-				<string>Xcode.IDESourceEditor.CmdDefinition.JumpToNextCounterpart</string>
-				<key>CommandID</key>
-				<string>Xcode.IDESourceEditor.CmdDefinition.JumpToNextCounterpart</string>
-				<key>Group</key>
-				<string>Navigate Menu for Source Code Comparison</string>
-				<key>GroupID</key>
-				<string>Xcode.IDESourceEditor.MenuDefinition.Navigate</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Keyboard Shortcut</key>
-				<string></string>
-				<key>Navigation</key>
-				<string>YES</string>
-				<key>Title</key>
-				<string>Jump to Next Counterpart</string>
-			</dict>
-			<dict>
-				<key>Action</key>
-				<string>jumpToNextCounterpartWithAlternate:</string>
-				<key>Alternate</key>
-				<string>YES</string>
-				<key>CommandGroupID</key>
-				<string>Xcode.IDESourceEditor.CmdDefinition.JumpToNextCounterpartWithAlternate</string>
-				<key>CommandID</key>
-				<string>Xcode.IDESourceEditor.CmdDefinition.JumpToNextCounterpartWithAlternate</string>
-				<key>Group</key>
-				<string>Navigate Menu for Source Code Comparison</string>
-				<key>GroupID</key>
-				<string>Xcode.IDESourceEditor.MenuDefinition.Navigate</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Keyboard Shortcut</key>
-				<string>~</string>
-				<key>Navigation</key>
-				<string>YES</string>
-				<key>Title</key>
-				<string>Jump to Next Counterpart (option)</string>
 			</dict>
 			<dict>
 				<key>Action</key>

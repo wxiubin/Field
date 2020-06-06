@@ -1,0 +1,24 @@
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[user]
+	name = 王修斌
+	email = iosgg@outlook.com
+[alias]
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	lgs = lg --stat
+	co = checkout
+	cp = cherry-pick
+	d = icdiff
+[core]
+	excludesfile = /Users/xiubin/.gitignore_global
+[commit]
+	template = /Users/xiubin/.stCommitMsg

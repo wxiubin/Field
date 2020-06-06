@@ -6,14 +6,14 @@
 	<string>@copy</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>property (nonatomic, copy) &lt;#type#&gt; &lt;#name#&gt;;</string>
+	<string>@property (nonatomic, copy) &lt;#type#&gt; &lt;#name#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>F2FB6206-3524-4FC6-B23A-6C0F23E5A43B</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string>copy</string>
 	<key>IDECodeSnippetTitle</key>
@@ -21,6 +21,6 @@
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>

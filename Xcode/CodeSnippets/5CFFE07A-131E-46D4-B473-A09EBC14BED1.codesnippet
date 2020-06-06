@@ -3,21 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>_ws</string>
+	<string>masonry</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>__weak typeof(self) weakSelf = self;</string>
+	<string>MASConstraintMaker *make = [&lt;#view#&gt; mas_makeConstraints];
+if (make) {
+    &lt;#code#&gt;
+    [make install];
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>DE8490AC-71A1-4F9C-8ABA-55C3E1E1B32C</string>
+	<string>5CFFE07A-131E-46D4-B473-A09EBC14BED1</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>weakSelf</string>
+	<string>masonry</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>weakSelf</string>
+	<string>masonry</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

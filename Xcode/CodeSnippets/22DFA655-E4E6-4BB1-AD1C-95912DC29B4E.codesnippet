@@ -6,14 +6,14 @@
 	<string>@assign</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>property (nonatomic, assign) &lt;#type#&gt; &lt;#name#&gt;;</string>
+	<string>@property (nonatomic, assign) &lt;#type#&gt; &lt;#name#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>22DFA655-E4E6-4BB1-AD1C-95912DC29B4E</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string>assign</string>
 	<key>IDECodeSnippetTitle</key>
@@ -21,6 +21,6 @@
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>

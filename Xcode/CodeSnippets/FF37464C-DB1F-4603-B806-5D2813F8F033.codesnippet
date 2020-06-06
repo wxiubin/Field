@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>_ws</string>
+	<string>weakself</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>__weak typeof(self) weakSelf = self;</string>
+	<string>@weakify(self);</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>DE8490AC-71A1-4F9C-8ABA-55C3E1E1B32C</string>
+	<string>FF37464C-DB1F-4603-B806-5D2813F8F033</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>weakSelf</string>
+	<string>weakself</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>weakSelf</string>
+	<string>weakself</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

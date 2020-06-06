@@ -3,21 +3,27 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>_ws</string>
+	<string>lazyframe</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>__weak typeof(self) weakSelf = self;</string>
+	<string>
+- (instancetype)initWithFrame:(CGRect)frame {
+    if (self = [super initWithFrame:frame]) {
+        &lt;#statements#&gt;
+    }
+    return self;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>DE8490AC-71A1-4F9C-8ABA-55C3E1E1B32C</string>
+	<string>8A6EB921-2D5E-422C-BC46-E8818FAA6453</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>weakSelf</string>
+	<string>lazyframe</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>weakSelf</string>
+	<string>lazyframe</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

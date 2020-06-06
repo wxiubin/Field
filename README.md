@@ -3,21 +3,23 @@
 
 #### Swift
 
-1. [Swift 语法初窥](https://iosgg.cn/2016/10/06/swift_basic_grammar/)
-2. [Swift 的函数和闭包](https://iosgg.cn/2016/10/07/swift_functions_closures/)
-3. [Swift 的类和对象](https://iosgg.cn/2016/10/07/swift_class_object/)
-4. [Swift 中的类和结构体](https://iosgg.cn/2016/10/12/swift_class_struct/)
+1. [Swift 语法初窥](https://iosgg.cn/2016/10/05/7-swift_basic_grammar/)
 
+#### iOS
+
+1. [iOS 性能优化实践](https://iosgg.cn/2019/05/27/20-ios-performance/)
+2. [iOS Hybrid 的实践](https://iosgg.cn/2018/09/03/19-ios-hybrid/)
 
 #### 多线程
 
-[iOS开发中多线程的那些事](https://iosgg.cn/2016/05/22/multithreading_iOS/)
+[iOS开发中多线程的那些事](https://iosgg.cn/2016/05/22/5-multithreading_iOS/)
 
-#### runtime
+#### Objc
 
-1. [runtime(一) objc_msgSend](https://iosgg.cn/2016/04/11/runtime1_objc_msgSend/)
-2. [runtime(二) 给对象、分类添加实例变量](https://iosgg.cn/2016/04/13/runtime2_association/)
-3. [runtime(三) Objective-C 的消息转发机制与动态添加方法](https://iosgg.cn/2016/04/17/runtime3_message_forwarding/)
-4. [runtime(四) method swizzling 与AOP编程](https://iosgg.cn/2016/04/17/runtime4_method_swizzling/)
+1. [autoreleasepool 是如何实现的](https://iosgg.cn/2017/06/18/14-autoreleasepool/)
+2. [weak 弱引用的实现方式](https://iosgg.cn/2017/06/10/13-objc-weak/)
+3. [@synchronized 的实现方式](https://iosgg.cn/2017/06/08/12-objc-synchronized/)
+4. [Objc 中 Block 的实现原理](https://iosgg.cn/2017/05/12/11-objc-block/)
+5. [runtime 源码学习笔记](https://iosgg.cn/2016/04/08/4-runtime/)
 
 
